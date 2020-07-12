@@ -1,0 +1,312 @@
+.easytabs-wrapper {
+    margin: 30px 0 0;
+}
+
+.easytabs-ul-wrapper {
+    margin-bottom: 10px;
+}
+
+.easytabs {
+    margin: 0;
+}
+
+.easytabs li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.easytabs li,
+.easytabs-a-accordion {
+
+}
+
+.easytabs li:hover {
+}
+
+.easytabs li .easytabs-anchor-icon:hover,
+.easytabs-a-accordion:hover {
+}
+
+.easytabs li.active {
+    color: #9999a3;
+}
+
+.easytabs-a {
+    color: #212121;
+    cursor: pointer;
+    display: block;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.easytabs-a:hover {
+    /*color: #cb9d79;*/
+}
+
+.easytabs li.active .easytabs-a {
+    color: #333 !important;
+    text-decoration: none;
+}
+.easytabs li .easytabs-a {
+    color: #9999a3 !important;
+}
+
+.easytabs-a,
+.easytabs-a .easytabs-anchor-icon {
+    color: #212121;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.easytabs-a .easytabs-anchor-icon:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+.easytabs-content {
+    color: #636363;
+    font-size: 16px;
+}
+
+.easytabs-content ul {
+
+}
+
+.easytabs-content ul li::before {
+    content: "-";
+    margin-right: 5px;
+}
+
+.easytabs-content ul li {
+
+}
+
+.easytabs-a-accordion {
+    margin-top: -1px;
+    background: #f1f1f1;
+    display: none;
+    padding: 12px;
+}
+
+.easytabs-a-accordion.active {
+    box-shadow: none;
+    color: #48494a;
+}
+
+.easytabs-a .easytabs-anchor-icon {
+    font-size: 12px;
+    height: 16px;
+    width: 10px;
+    margin-left: -10px;
+    float: left;
+    opacity: 0.7;
+    visibility: hidden;
+    text-decoration: none;
+}
+
+.easytabs-a:hover .easytabs-anchor-icon {
+    visibility: visible;
+}
+
+.easytabs-a .easytabs-anchor-icon:hover {
+    opacity: 1;
+}
+
+.easytabs-content .box-collateral {
+    margin: 0;
+}
+
+.easytabs-content .box-up-sell .products-grid td {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.easytabs-content .block-related .block-title {
+    display: none;
+}
+
+#product_tabs_tags_tabbed_contents label {
+    display: block;
+}
+
+#product_tabs_tags_tabbed_contents .input-box input {
+    width: 300px;
+}
+
+#product_tabs_tags_tabbed_contents .input-box {
+    width: 300px;
+    float: left;
+    margin: 0 10px 3px 0;
+}
+
+#product_tabs_related_tabbed_contents ol {
+    clear: both;
+}
+
+#product_tabs_related_tabbed_contents li {
+    float: left;
+    margin: 0 1% 15px 0;
+    width: 31%;
+}
+
+#product_tabs_related_tabbed_contents li:nth-child(1n) {
+    width: 32%;
+}
+
+#product_tabs_related_tabbed_contents li:nth-child(3n) {
+    margin-right: 0;
+}
+
+#product_tabs_related_tabbed_contents li:nth-child(3n+1) {
+    clear: left;
+}
+
+#product_tabs_related_tabbed_contents .product-images {
+    float: left;
+}
+
+#product_tabs_related_tabbed_contents .product-images a {
+    margin: 0 0 0 5px;
+}
+
+#product_tabs_related_tabbed_contents .product-details {
+    margin-left: 75px;
+}
+
+#product_tabs_related_tabbed_contents .price-box {
+    margin: 0;
+}
+
+.easytabs,
+.easytabs-content,
+.product-collateral,
+.easytabs-content .form-add {
+    zoom: 1;
+}
+
+.easytabs:after,
+.easytabs-content:after,
+.product-collateral:after,
+.easytabs-content .form-add:after {
+    content: '.';
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+}
+
+@media (max-width: 480px) {
+    /*
+     * .easytabs-a-tab should be hidden.
+     * See the easytabs.js~12: el.getStyle('display') !== 'none'
+     */
+    .easytabs, .easytabs-a-tab {
+        display: block;
+    }
+
+    .easytabs-a-accordion {
+        display: none;
+    }
+
+    #product_tabs_tags_tabbed_contents .input-box input {
+        width: 200px;
+    }
+
+    #product_tabs_tags_tabbed_contents .input-box {
+        width: 200px;
+    }
+
+    #product_tabs_related_tabbed_contents li {
+        float: none;
+        margin: 0 0 10px;
+        width: auto;
+    }
+
+    #product_tabs_related_tabbed_contents li:nth-child(1n) {
+        width: auto;
+    }
+
+    #product_tabs_review_tabbed_contents .ratings .rating-box {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        height: 19.6px;
+        text-align: center;
+        text-indent: 0;
+        width: 100%;
+    }
+
+    #product_tabs_review_tabbed_contents .ratings .rating-box .rating {
+        display: none;
+    }
+
+    #product_tabs_review_tabbed_contents .ratings .rating-box .rating-number {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    /*
+     * .easytabs-a-tab should be hidden.
+     * See the easytabs.js~12: el.getStyle('display') !== 'none'
+     */
+    .easytabs, .easytabs-a-tab {
+        display: block;
+    }
+
+    .easytabs-a-accordion {
+        display: none;
+    }
+
+.faq-page .easytabs-content.active{
+    padding: 25px;
+    background: #f3f1f1;
+    position: -webkit-sticky;
+    position: fixed;
+    transform: translate(-5%, -50%);
+    z-index: 99999;
+    position: fixed;
+    z-index: 500;
+    width: 90%;
+/*    -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.8);
+*/height: 90%;}
+
+.product-view .easytabs-content.active {
+    padding: 20px;
+}
+  .easytabs-ul-wrapper-vertical{
+        width:100%;
+  }
+  .easytabs-ul-wrapper-vertical ul.easytabs li.active{position: unset;}
+   .easytabs-ul-wrapper-vertical:after{box-sizing: inherit;}
+   .easytabs-content-wrapper-vertical{width: 50%;position: absolute;}
+   .footer-container {
+    position: relative;
+    z-index: 9999;}
+
+    .easytabs-content .close-ans{    
+    top: 0px;
+    right: 0;
+    left: auto;
+    cursor: pointer;
+    padding: 8px 8px 1px 9px;}
+    .faq-page p.show-only-mob {
+     margin-bottom: 20px;
+    color: #222;
+    display: block;
+    font-weight: bold;}
+
+.mob-overlay{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 100;}
+
+
+}

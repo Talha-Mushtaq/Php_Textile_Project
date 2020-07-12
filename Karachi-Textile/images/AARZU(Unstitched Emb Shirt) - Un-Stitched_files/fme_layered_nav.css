@@ -1,0 +1,217 @@
+
+
+/*categories*/
+div.fme-filter span.adj-nav-category-current {
+}
+
+div.fme-filter a.adj-nav-pad2 {
+
+}
+
+div.fme-filter a.adj-nav-pad3 {
+
+}
+
+/*price ranges*/
+div.fme-filter a.adj-nav-price {
+}
+
+div.fme-filter a.adj-nav-price-selected {
+    font-weight: bold
+}
+
+/*attributes*/
+div.fme-filter a.fme_layered_attribute {
+
+}
+
+div.fme-filter a.fme_layered_attribute_selected {
+    background: rgba(0, 0, 0, 0) url("../../images/checkbox-checked.png") no-repeat scroll left center;
+}
+
+div.fme-filter a.fme_layered_disabled {
+    color: gray;
+    cursor: wait
+}
+
+div.fme-filter input.fme_layered_disabled {
+    background-color: gray;
+    border: 1px solid gray;
+    cursor: wait
+}
+
+div.fme-filter a.fme_layered_clear {
+    float: right;
+    cursor: pointer;
+}
+
+#fme_layered_price li {
+    text-align: center;
+}
+
+div.price_slider {
+    background: #cbcbcb none repeat scroll 0 0;
+    height: 2px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.f-price {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+div.price_slider .handle:nth-child(2n) {
+    position: absolute;
+    right: 0px !important;
+}
+
+/*.block-layered-nav .block-content ol li {*/
+    /*text-align: right;*/
+/*}*/
+
+#adj-nav-container, div.adj-nav {
+    position: relative
+}
+
+.fme_loading_filters {
+    background-color: #d8d8d8;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5000;
+}
+
+.fme_loading_filters img {
+    display: block;
+    height: 36px;
+    left: 48%;
+    position: fixed;
+    top: 45%;
+    width: 36px;
+    z-index: 900;
+}
+
+.layered-nav div.fme_layered_clear_all {
+    margin: 0;
+    border: 1px solid #b9ccdd;
+    border-left: 0;
+    border-right: 0;
+    padding: 3px 10px;
+    color: #1f5070;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+.fme-filter dt {
+    clear: both;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 15px;
+}
+
+#fme_layered_color li {
+    display: table;
+    margin: 0 2px 0 0;
+    padding: 0;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#fme_layered_size li {
+
+}
+
+#fme_layered_fabric li, #fme_layered_trouser_size li, #fme_layered_fit li, #fme_layered_collar_size li, #fme_layered_sweater_size li {
+    width: 100%;
+    border: 0;
+}
+
+.color {
+    width: 150px;
+    clear: both;
+    margin: 0;
+}
+
+.color .color_box {
+    width: 25px;
+    height: 20px;
+    float: left;
+    display: block;
+    margin-right: 4px;
+    border: 1px solid;
+}
+
+.color a {
+    font-family: Arial;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+}
+
+.color a:hover {
+    color: #09F;
+    text-decoration: none;
+}
+
+.color span {
+    font-family: Arial;
+    font-size: 11px;
+    color: #999;
+}
+
+/*.fme-filter dl dd {*/
+    /*margin-bottom: 20px;*/
+    /*margin-top: 10px;*/
+/*}*/
+
+.fme-filter dl dd#fme_layered_cat {
+
+}
+
+.fme-filter dl dd#fme_layered_cat li {
+
+}
+
+.fme-filter dl dd#fme_layered_cat li a {
+
+}
+
+.fme-filter dl dd#fme_layered_size {
+
+}
+
+/*.fme-filter dl dd#fme_layered_size li {*/
+    /*display: table;*/
+    /*margin: 0 2px 0 0;*/
+    /*padding: 0;*/
+    /*text-align: left;*/
+    /*!*padding-bottom: 10px;*!*/
+/*}*/
+
+/*.fme-filter dl dd#fme_layered_size li a {*/
+    /*display: block;*/
+    /*float: none;*/
+    /*padding-left: 25px;*/
+/*}*/
+
+.fme-filter dl dd#fme_layered_size a.fme_layered_attribute_selected {
+    background: rgba(0, 0, 0, 0) url("../../images/checkbox-checked.png") no-repeat scroll left center;
+}
+
+@media only screen and (max-width: 768px) {
+    dd#fme_layered_price {
+        width: 100%;
+    }
+
+}    
